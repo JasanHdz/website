@@ -26,13 +26,11 @@
   background-image: url('/wave-bottom.svg');
 }
 
-#checkbox:checked ~ label #open {display: none; background-color: red;}
-#checkbox:checked ~ label #close {display: block;}
 
-#menu {
-  transition: 0.5s;
-}
-#checkbox:checked ~ #menu {display: block;}
+#menu { transition: 0.2s;}
+
+#checkbox:checked ~ div label #open { display: none; }
+#checkbox:checked ~ #menu {display: block; transform: translateX(0); opacity: 0.9;}
 
 @media screen and (max-width: 768px) {
   #wave::before, #wave::after {
