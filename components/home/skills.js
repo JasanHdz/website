@@ -6,11 +6,11 @@ import Skill from './skill'
 const headersText = {
   soft: {
     ES: 'Habilidades blandas',
-    EN: 'Technical skills',
+    EN: 'Soft skills',
   },
   technical: {
     ES: 'Habilidades Técnicas',
-    EN: 'Soft skills',
+    EN: 'Technical skills',
   }
 }
 

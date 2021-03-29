@@ -27,7 +27,7 @@
 }
 
 
-#menu { transition: 0.2s;}
+#menu { transition: 0.4s;}
 
 #checkbox:checked ~ div label #open { display: none; }
 #checkbox:checked ~ #menu {display: block; transform: translateX(0); opacity: 0.9;}

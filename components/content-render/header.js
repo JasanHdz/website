@@ -11,7 +11,7 @@ function HeaderBlock({ data, styles }) {
 
   if (typeof data === 'object' && data.level && typeof data.level === 'number') {
     switch (data.level) {
-      case 1: return <h1 className={styles}>{ ReactHtmlParser(content) }</h1>;
+      case 1: return <h1 className="text-2xl sm:text-3xl">{ ReactHtmlParser(content) }</h1>;
       case 2: return <h2 className={styles}>{ ReactHtmlParser(content) }</h2>;
       case 3: return <h3 className={styles}>{ ReactHtmlParser(content) }</h3>;
       case 4: return <h4 className={styles}>{ ReactHtmlParser(content) }</h4>;

@@ -8,24 +8,25 @@ import Phone from '../icons/phone'
 function SocialList() {
   const styles = `
     hover:opacity-80 bg-gray-600 rounded-full 
-    w-12 h-12 flex items-center justify-center
+    w-10 h-10 flex items-center justify-center
+    lg:w-12 lg:h-12
   `
   return (
-    <ul className="grid grid-cols-5 text-white gap-x-1 max-w-xs mx-auto mb-7">
+    <ul className="flex w-max space-x-2 text-white mx-auto">
       <a target="_blank"  href="https://github.com/JasanHdz" className={styles}>
-        <Github size={28} />
+        <Github className="lg:w-7 lg:h-7" />
       </a>
       <a href="mailto:jasan814@gmail.com" className={styles}>
-        <Gmail size={28} />
+        <Gmail className="lg:w-7 lg:h-7" />
       </a>
       <a target="_blank" href="https://www.instagram.com/jasanhdz/" className={styles}>
-        <Instagram size={28} />
+        <Instagram className="lg:w-7 lg:h-7" />
       </a>
       <a target="_blank" href="https://www.linkedin.com/in/jasanhdz" className={styles}>
-        <Linkedin size={28} />
+        <Linkedin className="lg:w-7 lg:h-7" />
       </a>
       <a href="tel:+522224365850" className={styles}>
-        <Phone size={28} />
+        <Phone className="lg:w-7 lg:h-7" />
       </a>
     </ul>
   )

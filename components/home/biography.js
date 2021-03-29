@@ -3,6 +3,7 @@ import { InfoContext } from '../../context/InfoContext'
 import Wrapper from '../common/wrapper'
 import BlockOutput from '../content-render/BlockOutput'
 import SocialList from './social-list'
+// import Link from 'next/link'
 
 function Biography() {
   const { info, language } = useContext(InfoContext)
@@ -17,8 +18,8 @@ function Biography() {
   return (
     <div>
       <Wrapper>
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-5">
-          <div className="md:col-start-1 md:col-end-2">
+        <div className="md:flex">
+          <div>
             <figure className={figureStyles}>
               <img className="rounded object-cover"  src="/jasan.jpg" alt=""/>
             </figure>
@@ -27,14 +28,13 @@ function Biography() {
             </div>
             <SocialList />
           </div>
-          <div className="md:col-start-2 md:col-end-4">
+          <div className="bg-black bg-opacity-10 h-px my-7 md:w-px md:mx-8 md:my-0 md:h-auto" />
+          <div>
             <div className="text-lg space-y-4" >
               <BlockOutput chunks={blocks} headerStyle="text-4xl mb-2" />
-              {/* <Link href="/resume-jasandz.pdf"> */}
-                <a className="block max-w-max mt-3 bg-blue-600 rounded-md px-2 py-2 text-white" >
-                  {language === 'ES' ? 'Descargar' : 'Download' } CV
-                </a>
-              {/* </Link> */}
+              <a target="_blank" href="/resume-jasandz.pdf" download className="block max-w-max mt-3 bg-blue-600 rounded-md px-2 py-2 text-white" >
+                {language === 'ES' ? 'Descargar' : 'Download' } CV
+              </a>
             </div>
           </div>
         </div>

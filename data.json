@@ -6,8 +6,7 @@
           {
             "type": "header",
             "data": {
-              "text": "👋 Hola, soy <b class='font-semibold'>Jasan Hernández.</b>",
-              "style": "text-2xl sm:text-3xl",
+              "text": "Hola 👋, soy <b class='font-semibold'>Jasan Hernández.</b>",
               "level": 1
             }
           }, 
@@ -24,8 +23,7 @@
         {
           "type": "header",
           "data": {
-            "text": "Biografia",
-            "style": "text-2xl sm:text-3xl font-semibold",
+            "text": "<b class='font-semibold'>Biografía</b>",
             "level": 1
           }
         },
@@ -44,7 +42,7 @@
         {
           "type": "paragraph",
           "data": {
-            "text": "<b>Otras tecnologías con las que he trabajado</b>: PHP(Laravel), Python, Java SE, C++, MySql, GraphQL, entre otras librerías de JavaScript."
+            "text": "<b>Otras tecnologías con las que he trabajado</b>: PHP(Laravel), Python, Java SE, C++, MySQL, GraphQL, entre otras librerías de JavaScript."
           }
         }
       ]
@@ -58,7 +56,6 @@
             "type": "header",
             "data": {
               "text": "👋  Hi, I'm <b class='font-semibold'>Jasan Hernández.</b>",
-              "style": "text-2xl sm:text-3xl",
               "level": 1
             }
           },
@@ -75,8 +72,7 @@
         {
           "type": "header",
           "data": {
-            "text": "Biography",
-            "style": "text-2xl sm:text-3xl font-semibold",
+            "text": "<b class='font-semibold'>Biography</b>",
             "level": 1
           }
         },
@@ -95,7 +91,7 @@
         {
           "type": "paragraph",
           "data": {
-            "text": "<b> Other technologies I have worked with </b>: PHP (Laravel), Python, Java SE, C ++, MySql, GraphQL, among other JavaScript libraries."
+            "text": "<b> Other technologies I have worked with </b>: PHP (Laravel), Python, Java SE, C ++, MySQL, GraphQL, among other JavaScript libraries."
           }
         }
       ]
