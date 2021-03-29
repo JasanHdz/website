@@ -1,13 +1,21 @@
 {
   "ES": {
     "bio": {
-      "greating": {
+      "profile": {
         "blocks": [
           {
             "type": "header",
             "data": {
-              "text": "Hola 👋, soy <b class='font-semibold'>Jasan Hernández.</b>",
+              "text": "👋 Hola, soy <b class='font-semibold'>Jasan Hernández.</b>",
+              "style": "text-2xl sm:text-3xl",
               "level": 1
+            }
+          }, 
+          {
+            "type": "header",
+            "data": {
+              "text": "Tienes curiosidad sobre 🎒 <b class='font-semibold underline'><a href='/use'>¿qué uso para trabajar?</a></b>",
+              "level": 2
             }
           }
         ]
@@ -17,6 +25,7 @@
           "type": "header",
           "data": {
             "text": "Biografia",
+            "style": "text-2xl sm:text-3xl font-semibold",
             "level": 1
           }
         },
@@ -43,13 +52,21 @@
   },
   "EN": {
     "bio": {
-      "greating": {
+      "profile": {
         "blocks": [
           {
             "type": "header",
             "data": {
-              "text": "Hi 👋, I'm <b class='font-semibold'>Jasan Hernández.</b>",
+              "text": "👋  Hi, I'm <b class='font-semibold'>Jasan Hernández.</b>",
+              "style": "text-2xl sm:text-3xl",
               "level": 1
+            }
+          },
+          {
+            "type": "header",
+            "data": {
+              "text": "Are you curious about 🎒 <b class='font-semibold underline'><a href='/use'>what does he use?</a></b>",
+              "level": 2
             }
           }
         ]
@@ -59,6 +76,7 @@
           "type": "header",
           "data": {
             "text": "Biography",
+            "style": "text-2xl sm:text-3xl font-semibold",
             "level": 1
           }
         },

@@ -4,7 +4,7 @@ export const InfoContext = createContext()
 
 const mock = {
   bio: {
-    greating: {
+    profile: {
       blocks: []
     },
     blocks: []

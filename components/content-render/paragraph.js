@@ -3,7 +3,7 @@ import ReactHtmlParser from 'react-html-parser'
 
 function ParagraphBlock({ data, styles }) {
   if (!data) return ''
-  if(!styles || typeof style !== 'object') styles = ""
+  if(!styles) styles = ""
   let content = null
 
   if (typeof data === 'string') content = data

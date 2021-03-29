@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css'
+import '../components/styles.css'
 import InfoProvider from '../context/InfoContext'
 
  function MyApp({ Component, pageProps }) {

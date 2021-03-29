@@ -8,9 +8,10 @@ function BlockOutput({ chunks, headerStyle }) {
     const data = block.data
     switch (type) {
       case 'header':
-        return <HeaderBlock key={index} data={data} styles={headerStyle} />
+        console.log(data)
+        return <HeaderBlock key={index} data={data} styles={data.style} />
       case 'paragraph':
-        return <ParagraphBlock key={index} data={data} />
+        return <ParagraphBlock key={index} data={data} styles={data.style || ''} />
       case 'list':
         return <ListBlock key={index} data={data} />
       default:

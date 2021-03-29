@@ -1,0 +1,41 @@
+#wave {
+  position: relative;
+  background-color: #F3F3F4;
+}
+
+#wave::before, #wave::after {
+  height: 250px;
+  content: '';
+  z-index: -1;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+#wave::before {
+  bottom: 100%;
+  background-image: url('/wave-top.svg');
+}
+
+#wave::after {
+  top: 100%;
+  background-image: url('/wave-bottom.svg');
+}
+
+#checkbox:checked ~ label #open {display: none; background-color: red;}
+#checkbox:checked ~ label #close {display: block;}
+
+#menu {
+  transition: 0.5s;
+}
+#checkbox:checked ~ #menu {display: block;}
+
+@media screen and (max-width: 768px) {
+  #wave::before, #wave::after {
+    height: 120px;
+  }
+}
