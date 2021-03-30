@@ -1,35 +1,26 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { InfoContext } from '../../context/InfoContext'
 import Wrapper from '../common/wrapper'
 import ExperienceItem from './experience-item'
 
-function Experience() {
+function Experience({ data }) {
+  const { language } = useContext(InfoContext)
   return (
-    <div id="arrow" className="">
+    <div>
       <Wrapper>
-        <h2 className="text-2xl uppercase mb-6" >Experiencia</h2>
-        <section className="">
-          <ExperienceItem
-            link="https://tulkitpay.com/"
-            title="Tulkitpay"
-            description="En esta charla conté cómo puedes hacer páginas web estáticas que no necesitan servidor. Qué tipo de web utilizar dependiendo de tus necesidades, sus propiedades y sus funcionalidades."
-            image="/works/tulkitpay.png"
-            date="Septiembre 2020 - Actualidad"
-          />
-          <ExperienceItem
-            link="https://leonidasesteban.com/"
-            title="Leonidas Esteban"
-            description="En esta charla conté cómo puedes hacer páginas web estáticas que no necesitan servidor. Qué tipo de web utilizar dependiendo de tus necesidades, sus propiedades y sus funcionalidades."
-            image="/works/leonidas.png"
-            date="Abril 2020 - Septiembre 2020"
-          />
-          <ExperienceItem
-            link="https://platzi.com/blog/associates/"
-            title="Platzi Associate"
-            description="En esta charla conté cómo puedes hacer páginas web estáticas que no necesitan servidor. Qué tipo de web utilizar dependiendo de tus necesidades, sus propiedades y sus funcionalidades."
-            image="/works/platzi.jpg"
-            noLine
-            date="Septiembre 2019 - Marzo 2020"
-          />
+        <h2 className="text-2xl uppercase mb-6" >{data.title[language]}</h2>
+        <section>
+          {data.items.map((experience, idx) => (
+            <ExperienceItem
+              company={experience.company}
+              title={experience.title}
+              link={experience.link}
+              image={experience.image}
+              description={experience[language].desc}
+              date={experience[language].date}
+              noLine={data.items.length - 1 === idx ? true : false}
+            />
+          ))}
         </section>
       </Wrapper>
     </div>

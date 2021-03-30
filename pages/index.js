@@ -6,6 +6,8 @@ import json from '../data.json'
 import Skills from '../components/home/skills'
 import Footer from '../components/common/footer'
 import Experience from '../components/home/experience'
+import { workExperienceData } from '../providers/work-experience'
+import { educationData } from '../providers/education'
 
 function Home(data) {
   const { setInfo, setLanguage } = useContext(InfoContext)
@@ -20,7 +22,8 @@ function Home(data) {
     <>
       <Menu />
       <Biography />
-      <Experience />
+      <Experience data={workExperienceData} />
+      <Experience data={educationData} />
       <Skills />
       <Footer />
     </>

@@ -19,10 +19,11 @@ function Skills() {
   return (
     <div id="wave" className="py-0 my-60">
       <Wrapper>
-        <h2 className="text-center mb-2 uppercase text-3xl text-pink-800">{headersText.soft[language]}</h2>
-        <section className="grid grid-cols-2 sm:grid-cols-3">
+        <h2 className="mb-2 uppercase text-3xl text-pink-800">{headersText.soft[language]}</h2>
+        <section className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
           <Skill image="/images/attitude.png" title="actitud positiva" />
           <Skill image="/images/curiosity.png" title="curiosidad" />
+          <Skill image="/images/integrity.png" title="integridad" />
           <Skill image="/images/integrity.png" title="integridad" />
         </section>
       </Wrapper>
