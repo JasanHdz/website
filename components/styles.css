@@ -32,6 +32,28 @@
 #checkbox:checked ~ div label #open { display: none; }
 #checkbox:checked ~ #menu {display: block; transform: translateX(0); opacity: 0.9;}
 
+#arrow { position: relative; background-color: rgb(247, 247, 247); }
+#arrow::before {
+  display: block;
+  content: "";
+  border-top: 1px solid white;
+  height: 40px;
+  background-color: white;
+  clip-path: polygon(50% 100%, 0px 0px, 100% 0px);
+}
+
+.article {
+  min-height: 120px;
+}
+
+.article figure {
+  background-color: #F3F3F4;
+}
+
+.article figure:hover {
+  border-style: dashed;
+}
+
 @media screen and (max-width: 768px) {
   #wave::before, #wave::after {
     height: 120px;

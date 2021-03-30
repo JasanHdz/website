@@ -5,6 +5,7 @@ import { InfoContext } from '../context/InfoContext'
 import json from '../data.json'
 import Skills from '../components/home/skills'
 import Footer from '../components/common/footer'
+import Experience from '../components/home/experience'
 
 function Home(data) {
   const { setInfo, setLanguage } = useContext(InfoContext)
@@ -19,6 +20,7 @@ function Home(data) {
     <>
       <Menu />
       <Biography />
+      <Experience />
       <Skills />
       <Footer />
     </>
