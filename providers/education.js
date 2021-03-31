@@ -12,7 +12,7 @@ export const educationData = {
         date: 'En cualquier sitio - Siempre',
         desc: 'Así es cómo he aprendido el 80% de lo que sé hoy en día. En este momento estoy aprendiendo: #VueJS #Performance #DesignSystems',
       },
-      En: {
+      EN: {
         date: '',
         desc: ''
       }
@@ -26,8 +26,8 @@ export const educationData = {
         date: '2017 - 2018',
         desc: 'Así es cómo he aprendido el 80% de lo que sé hoy en día. En este momento estoy aprendiendo: #VueJS #Performance #DesignSystems',
       },
-      En: {
-        date: '',
+      EN: {
+        date: '2017 - 2018',
         desc: ''
       }
     },
@@ -40,7 +40,7 @@ export const educationData = {
         date: '2016 - 2021',
         desc: ' lorem ipsu lorem ipsu lorem ipsu lorem ipsu lorem ipsu lorem ipsu lorem ipsu lorem ipsu lorem ipsu  lorem ipsu lorem ipsu lorem ipsu lorem ipsu',
       },
-      En: {
+      EN: {
         date: '',
         desc: ''
       }

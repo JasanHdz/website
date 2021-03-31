@@ -16,26 +16,24 @@ function Biography() {
   `
   
   return (
-    <div>
-      <Wrapper>
-        <div className="md:flex">
-          <div>
-            <figure className={figureStyles}>
-              <img className="rounded object-cover"  src="/jasan.jpg" alt=""/>
-            </figure>
-            <div className="space-y-8 my-8 text-center">
-              <BlockOutput chunks={profile && profile.blocks} />
-            </div>
-            <SocialList />
+    <div className="lg:py-5" >
+      <Wrapper className="md:flex">
+        <div>
+          <figure className={figureStyles}>
+            <img className="rounded object-cover"  src="/jasan.jpg" alt=""/>
+          </figure>
+          <div className="space-y-8 my-8 text-center">
+            <BlockOutput chunks={profile && profile.blocks} />
           </div>
-          <div className="bg-black bg-opacity-10 h-px my-7 md:w-px md:mx-8 md:my-0 md:h-auto" />
-          <div>
-            <div className="text-lg space-y-4" >
-              <BlockOutput chunks={blocks} headerStyle="text-4xl mb-2" />
-              <a target="_blank" href="/resume-jasandz.pdf" download className="block max-w-max mt-3 bg-blue-600 rounded-md px-2 py-2 text-white" >
-                {language === 'ES' ? 'Descargar' : 'Download' } CV
-              </a>
-            </div>
+          <SocialList />
+        </div>
+        <div className="bg-black bg-opacity-10 h-px my-7 md:w-px md:mx-8 md:my-0 md:h-auto" />
+        <div>
+          <div className="text-lg space-y-4" >
+            <BlockOutput chunks={blocks} headerStyle="text-4xl mb-2" />
+            <a target="_blank" href="/resume-jasandz.pdf" download className="block max-w-max mt-3 bg-blue-600 rounded-md px-2 py-2 text-white" >
+              {language === 'ES' ? 'Descargar' : 'Download' } CV
+            </a>
           </div>
         </div>
       </Wrapper>

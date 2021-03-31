@@ -22,8 +22,10 @@ function Home(data) {
     <>
       <Menu />
       <Biography />
-      <Experience data={workExperienceData} />
-      <Experience data={educationData} />
+      <div className="bg-gray-100 py-5" >
+        <Experience data={workExperienceData} />
+        <Experience data={educationData} />
+      </div>
       <Skills />
       <Footer />
     </>

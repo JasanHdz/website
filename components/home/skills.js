@@ -17,9 +17,9 @@ const headersText = {
 function Skills() {
   const { language } = useContext(InfoContext)
   return (
-    <div id="wave" className="py-0 my-60">
+    <div id="arrow" className="py-0">
       <Wrapper>
-        <h2 className="mb-2 uppercase text-3xl text-pink-800">{headersText.soft[language]}</h2>
+        <h2 className="text-center font-bold my-4 uppercase text-2xl">{headersText.soft[language]}</h2>
         <section className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
           <Skill image="/images/attitude.png" title="actitud positiva" />
           <Skill image="/images/curiosity.png" title="curiosidad" />
@@ -29,7 +29,7 @@ function Skills() {
       </Wrapper>
       <div>
         <Wrapper>
-          <h2 className="text-center my-4 uppercase text-3xl text-pink-800">{headersText.technical[language]}</h2>
+          <h2 className="text-center font-bold my-4 uppercase text-2xl">{headersText.technical[language]}</h2>
           <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
             <Skill image="/images/javascript.png" title="javascript" small />
             <Skill image="/images/typescript.png" title="typescript" small />
