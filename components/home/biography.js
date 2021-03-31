@@ -22,7 +22,7 @@ function Biography() {
           <figure className={figureStyles}>
             <img className="rounded object-cover"  src="/jasan.jpg" alt=""/>
           </figure>
-          <div className="space-y-8 my-8 text-center">
+          <div className="lg:min-w-max space-y-8 my-8 text-center">
             <BlockOutput chunks={profile && profile.blocks} />
           </div>
           <SocialList />

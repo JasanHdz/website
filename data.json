@@ -13,6 +13,13 @@
           {
             "type": "header",
             "data": {
+              "text": "Software Engineer",
+              "level": 1
+            }
+          }, 
+          {
+            "type": "header",
+            "data": {
               "text": "Tienes curiosidad sobre 🎒 <b class='font-semibold underline'><a href='/use'>¿qué uso para trabajar?</a></b>",
               "level": 2
             }
@@ -56,6 +63,13 @@
             "type": "header",
             "data": {
               "text": "👋  Hi, I'm <b class='font-semibold'>Jasan Hernández.</b>",
+              "level": 1
+            }
+          },
+          {
+            "type": "header",
+            "data": {
+              "text": "Software Engineer",
               "level": 1
             }
           },
