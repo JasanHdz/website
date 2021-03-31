@@ -15,7 +15,7 @@ function InfoProvider({ children }) {
   const [info, setInfo] = useState({
     ES: mock, EN: mock
   })
-  const [language, setLanguage] = useState('ES')
+  const [language, setLanguage] = useState('EN')
   return (
     <InfoContext.Provider value={{ info, setInfo, language, setLanguage }}>
       {children}

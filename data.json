@@ -37,19 +37,13 @@
         {
           "type": "paragraph",
           "data": {
-            "text": "Soy Frontend developer, tengo 4 años trabajando con Tecnologías Web. Y desde hace 3 años que uso React con cualquier proyecto personal y tengo experiencia en él construyendo interfaces robustas. Busco colaborar en una posición como Frontend Developer en Aplicaciones Web o Aplicaciones Móviles, además me gusta mucho JavaScript porque me permite trabajar del lado del cliente como del lado del servidor."
+            "text": "Soy <b>Frontend developer</b>, tengo 4 años trabajando con tecnologías web . Mi curiosidad a nivel tecnológico y mi actitud positiva me impulsaron a iniciar una carrera en tecnología. Disfruto resolver problemas creativamente y encuentro en el código un amigo muy valioso que me permite convertir ideas en realidad, haciendo cosas mágicas posibles. Como developer, aspiro a desarrollar productos tecnológicos innovadores que faciliten la vida de las personas y generen un impacto social positivo."
           }
         },
         {
           "type": "paragraph",
           "data": {
-            "text": "<strong>Tecnologías que uso frecuentemente</strong>: React, Express, Flutter, Firebase, Mongo"
-          }
-        },
-        {
-          "type": "paragraph",
-          "data": {
-            "text": "<b>Otras tecnologías con las que he trabajado</b>: PHP(Laravel), Python, Java SE, C++, MySQL, GraphQL, entre otras librerías de JavaScript."
+            "text": "En general, a lo largo de mi carrera, ha sido testigo de cómo JavaScript está cambiando la forma en que creamos software en el presente y cómo influye en el futuro. Ha trabajado principalmente como desarrollador front-end en proyectos UI / UX. Sin embargo, no dudes en preguntarle sobre arquitectura, lluvia de ideas, diseño de productos, Node.js e incluso sobre cómo aprender cosas nuevas todos los días."
           }
         }
       ]
@@ -93,19 +87,13 @@
         {
           "type": "paragraph",
           "data": {
-            "text": "I am a Frontend developer, I have been working with Web Technologies for 4 years. And for 3 years I have been using React with any personal project and have experience building robust interfaces. I am looking to collaborate in a position as Frontend Developer in Web Applications or Mobile Applications, I also like JavaScript a lot because it allows me to work on the client side as well as on the server side."
+            "text": "I am a <b>Frontend developer</b>, I have been working with web technologies for 4 years. My technological curiosity and positive attitude prompted me to start a career in technology. I enjoy creative problem solving and I find in code a very valuable friend that allows me to turn ideas into reality, making magical things possible. As a developer, I aspire to develop innovative technological products that make people's lives easier and generate a positive social impact."
           }
         },
         {
           "type": "paragraph",
           "data": {
-            "text": "<b> Technologies I use frequently </b>: React, Express, Flutter, Firebase, Mongo"
-          }
-        },
-        {
-          "type": "paragraph",
-          "data": {
-            "text": "<b> Other technologies I have worked with </b>: PHP (Laravel), Python, Java SE, C ++, MySQL, GraphQL, among other JavaScript libraries."
+            "text": "In general, throughout my career, you have witnessed how JavaScript is changing the way we create software today and how it influences the future. He has worked primarily as a front-end developer on UI / UX projects. However, feel free to ask him about architecture, brainstorming, product design, Node.js, and even how to learn new things every day."
           }
         }
       ]

@@ -28,7 +28,7 @@ export const educationData = {
       },
       EN: {
         date: '2017 - 2018',
-        desc: 'I remember that I had already been in the career for a couple of years but I still did not know how to program very well, it was then that I came across platzi, I was looking for programming videos on YouTube, when I found their advertising, after a while I decided to apply and get a membership It was there where I learned a lot, during this year I focused on learning the basics of the Frontend, but it was only the beginning of my path, since the only way to really learn is by practicing and practicing. #There are no shortcuts to be hokage'
+        desc: 'I remember that I had already been in the career for a couple of years but I still did not know how to program very well, it was then that I came across platzi, I was looking for programming videos on YouTube, when I found their advertising, after a while I decided to apply and get a membership It was there where I learned a lot, during this year I focused on learning the basics of the Frontend, but it was only the beginning of my path, since the only way to really learn is by practicing and practicing. #ThereAreNoShortcutsToBeHokage'
       }
     },
     {
@@ -42,7 +42,7 @@ export const educationData = {
       },
       EN: {
         date: '2016 - 2021',
-        desc: 'To enter the university I had to take an entrance exam for which I studied a lot, since when I was in high school I thought about studying nutrition, which did not happen after a personal meditation. University represents a hard stage in my life, since I had to leave my house for the city of Puebla, but thanks to those moments I learned many things such as: # Engineering # Managing Frustration # Study and Work # Grow as an Independent Person'
+        desc: 'To enter the university I had to take an entrance exam for which I studied a lot, since when I was in high school I thought about studying nutrition, which did not happen after a personal meditation. University represents a hard stage in my life, since I had to leave my house for the city of Puebla, but thanks to those moments I learned many things such as: #Engineering #ManagingFrustration #StudyAndWork #GrowAsAnIndependentPerson'
       }
     }
   ]
