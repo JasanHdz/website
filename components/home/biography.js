@@ -8,7 +8,7 @@ import SocialList from './social-list'
 function Biography() {
   const { info, language } = useContext(InfoContext)
   const { blocks, profile } = info[language].bio
-  console.log(profile)
+  const isEnglish = Boolean(language === 'EN')
   const figureStyles = `
     mx-auto overflow-hidden object-fill border-4 
     border-blue-500 rounded-full bg-white 
@@ -31,8 +31,8 @@ function Biography() {
         <div>
           <div className="text-lg space-y-4" >
             <BlockOutput chunks={blocks} headerStyle="text-4xl mb-2" />
-            <a target="_blank" href="/resume-jasandz.pdf" download className="block max-w-max mt-3 bg-blue-600 rounded-md px-2 py-2 text-white" >
-              {language === 'ES' ? 'Descargar' : 'Download' } CV
+            <a target="_blank" href={`${isEnglish ? 'english' : 'spanish'}-resume.pdf`} className="block max-w-max mt-3 bg-blue-600 rounded-md px-2 py-2 text-white" >
+              {isEnglish ? 'Download': 'Descargar'} CV
             </a>
           </div>
         </div>
